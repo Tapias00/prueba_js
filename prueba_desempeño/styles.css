@@ -87,7 +87,7 @@ a:hover {
   margin-bottom: 1em;
 }
 
-/* Layout de dashboard con barra lateral morada */
+/* Layout de dashboard */
 .layout-dashboard {
   display: flex;
   min-height: 70vh;
