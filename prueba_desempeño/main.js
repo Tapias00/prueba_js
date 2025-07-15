@@ -6,7 +6,7 @@ const API_URL = "http://localhost:3000";
 const SESSION_KEY = "eventos_sesion";
 const app = document.getElementById('app');
 
-// -------------------- Funciones de sesión --------------------
+// Funciones de sesión
 function guardarSesion(usuario) {
   localStorage.setItem(SESSION_KEY, JSON.stringify(usuario));
 }
@@ -19,7 +19,7 @@ function cerrarSesion() {
   window.location.hash = '#/login';
 }
 
-// -------------------- Vistas principales --------------------
+//Vistas principales
 // Vista de inicio de sesión
 function vistaLogin() {
   app.innerHTML = `
@@ -209,7 +209,7 @@ function vistaNotFound() {
   app.innerHTML = `<h2>Página no encontrada o acceso no permitido.</h2><p><a href="#/dashboard">Ir al dashboard</a></p>`;
 }
 
-// -------------------- Dashboard: eventos y registros --------------------
+//Dashboard: eventos y registros
 // Carga y muestra los eventos disponibles y registros del usuario
 function cargarEventos(user, esAdmin = false) {
   const cont = esAdmin ? document.querySelector('.dashboard-content #dashboardContent') : document.getElementById('dashboardContent');
@@ -269,10 +269,9 @@ function cargarEventos(user, esAdmin = false) {
       });
     }
   });
-  // Aquí puedes agregar la carga de registros si el usuario es visitante
-}
+ }
 
-// -------------------- Ruteo SPA --------------------
+// Ruteo SPA
 // Controla la navegación entre vistas según el hash de la URL
 function router() {
   const hash = window.location.hash;
