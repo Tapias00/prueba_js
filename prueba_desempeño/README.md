@@ -9,11 +9,10 @@ Este proyecto es una aplicación web para la gestión de eventos, con roles de a
 
 ## Instalación y ejecución
 
-1. **Clona el repositorio o descarga los archivos**
+1. **Clona el repositorio**
 
    ```bash
-   git clone <url-del-repositorio>
-   cd <carpeta-del-proyecto>
+   git clone <https://github.com/Tapias00/prueba_js.git>
    ```
 
 2. **Instala las dependencias**
@@ -49,7 +48,7 @@ Este proyecto es una aplicación web para la gestión de eventos, con roles de a
 
 - **Administrador:**
   - Puede crear y editar eventos.
-  - Ve un menú lateral morado con opciones de administración.
+  - Ve un menú lateral con opciones de administración.
 
 - **Visitante:**
   - Puede ver la lista de eventos y registrarse en ellos.
@@ -59,14 +58,14 @@ Este proyecto es una aplicación web para la gestión de eventos, con roles de a
 
 - `index.html`: Página principal de la aplicación.
 - `styles.css`: Estilos personalizados y layout.
-- `main.js`: Lógica de la aplicación (autenticación, rutas, CRUD, renderizado).
+- `main.js`: Lógica de la aplicación.
 - `db.json`: Base de datos simulada para usuarios, eventos y registros.
 - `package.json`: Dependencias del proyecto.
 
 ## Notas adicionales
 
 - Puedes modificar `db.json` para agregar más usuarios o eventos de prueba.
-- El proyecto utiliza [Bootstrap 5](https://getbootstrap.com/) para estilos adicionales.
+- El proyecto utiliza [Bootstrap 5](https://getbootstrap.com/).
 - Si deseas reiniciar la base de datos, simplemente detén y vuelve a iniciar `json-server`.
 
 ---
