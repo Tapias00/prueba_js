@@ -1,0 +1,23 @@
+{
+  "name": "danieltapias170",
+  "version": "1.0.0",
+  "description": "Single Page Application para la gestión de eventos.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "server": "json-server --watch db.json --port 3000"
+  },
+  "keywords": [
+    "SPA",
+    "JavaScript",
+    "Event Management",
+    "Authentication",
+    "CRUD"
+  ],
+  "author": "daniel tapias villamil",
+  "license": "ISC",
+  "dependencies": {
+    "json-server": "^0.17.4"
+  },
+  "devDependencies": {}
+}

@@ -1,0 +1,31 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "nombre": "admin",
+      "email": "admin@eventos.com",
+      "password": "admin123",
+      "rol": "admin"
+    },
+    {
+      "nombre": "daniel",
+      "email": "danieltv1403@gmail.com",
+      "password": "1234",
+      "rol": "visitante",
+      "id": 2
+    }
+  ],
+  "eventos": [
+    {
+      "nombre": "parche",
+      "descripcion": "melisimo",
+      "fecha": "2025-07-14",
+      "hora": "08:36",
+      "lugar": "mi casa",
+      "capacidad": 10,
+      "registrados": 0,
+      "id": 1
+    }
+  ],
+  "registros": []
+}
